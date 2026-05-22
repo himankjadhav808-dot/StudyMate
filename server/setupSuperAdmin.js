@@ -14,8 +14,8 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const Learner = require('./models/Learner');
 
-const SUPER_ADMIN_EMAIL = process.env.SUPER_ADMIN_EMAIL || 'studymate809@gmail.com';
-const SUPER_ADMIN_PASSWORD = process.env.SUPER_ADMIN_PASSWORD || 'Admin@123';
+const SUPER_ADMIN_EMAIL = process.env.SUPER_ADMIN_EMAIL || 'superadmin@example.com';
+const SUPER_ADMIN_PASSWORD = process.env.SUPER_ADMIN_PASSWORD || 'SuperSecurePassword123!';
 
 async function setupSuperAdmin() {
   try {
