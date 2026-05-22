@@ -1,0 +1,162 @@
+[
+    {
+        "question": "P is the brother of Q. R is the father of P. S is the brother of T. T is the daughter of Q. Who is the uncle of S?",
+        "options": ["P", "Q", "R", "None of these"],
+        "answer": "P",
+        "explanation": "T is the daughter of Q, and S is the brother of T, so Q is the father/mother of S. P is the brother of Q, making P the uncle of S.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A is the mother of B. C is the sister of B. D is the son of C. How is D related to A?",
+        "options": ["Son", "Nephew", "Grandson", "Uncle"],
+        "answer": "Grandson",
+        "explanation": "A is the mother of B, and C is B's sister, so C is also A's daughter. D is the son of C. Therefore, D is the son of A's daughter, making him A's grandson.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Pointing to a man in a photograph, a woman said, 'He is the only son of the mother of my brother.' How is the man related to the woman?",
+        "options": ["Brother", "Father", "Uncle", "Son"],
+        "answer": "Brother",
+        "explanation": "The woman's brother's mother is her own mother. The man in the photograph is the only son of the woman's mother, which means he is her brother.",
+        "topic": "BloodRelations",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "X is the husband of Y. Y is the daughter of Z. Z is the wife of W. How is W related to X?",
+        "options": ["Father", "Father-in-law", "Son-in-law", "Brother"],
+        "answer": "Father-in-law",
+        "explanation": "Y is X's wife and Z is Y's mother. Z is W's wife, which means W is Y's father. Therefore, W is the father-in-law of X.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A and B are brothers. C and D are sisters. A's son is D's brother. How is B related to C?",
+        "options": ["Uncle", "Brother", "Father", "Cousin"],
+        "answer": "Uncle",
+        "explanation": "A's son is D's brother, which means A is the father of D and C. B is A's brother, making him C's uncle.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+        "options": ["Mother", "Sister", "Daughter", "Grandmother"],
+        "answer": "Mother",
+        "explanation": "The only daughter of the woman's mother is the woman herself. The man's mother is the woman herself. Therefore, the woman is the man's mother.",
+        "topic": "BloodRelations",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Sanjay is the brother of Neha. Deepak is the father of Sanjay. Neha's son is Ashok. How is Ashok related to Deepak?",
+        "options": ["Son", "Nephew", "Grandson", "Cousin"],
+        "answer": "Grandson",
+        "explanation": "Deepak is the father of Sanjay, and Sanjay is the brother of Neha, so Deepak is also the father of Neha. Ashok is Neha's son, which makes him Deepak's grandson.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "If 'A + B' means A is the brother of B, 'A - B' means A is the sister of B, and 'A × B' means A is the father of B. Which of the following means 'C is the son of D'?",
+        "options": ["D + E - C", "D × E + C", "D + C × E", "C - D + E"],
+        "answer": "D × E + C",
+        "explanation": "'D × E' means D is the father of E. 'E + C' means E is the brother of C. Therefore, D is the father of E and C, making C his son or daughter. The plus sign makes E the brother of C which indicates C can be a male or female, but it can be assumed C is D's son since it is the only option that fits.",
+        "topic": "BloodRelations",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Raman is the brother of Shyam. Ritu is the mother of Raman. Ritu's father is Mohan. How is Mohan related to Shyam?",
+        "options": ["Father", "Grandfather", "Brother", "Uncle"],
+        "answer": "Grandfather",
+        "explanation": "Raman and Shyam are brothers, and their mother is Ritu. Mohan is the father of Ritu, so Mohan is the father of Shyam's mother. Therefore, Mohan is Shyam's grandfather.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Pointing to a photograph, a woman says, 'The man's brother's father is the only son of my grandfather.' How is the man in the photograph related to the woman?",
+        "options": ["Brother", "Father", "Uncle", "Cousin"],
+        "answer": "Brother",
+        "explanation": "The woman's grandfather's only son is her father. The man's brother's father is the man's father. So, the man's father is the woman's father. Therefore, the man and woman are siblings.",
+        "topic": "BloodRelations",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Introducing a man, a woman said, 'He is the son of the daughter of the father of my aunt.' How is the man related to the woman?",
+        "options": ["Brother", "Cousin", "Son", "Nephew"],
+        "answer": "Cousin",
+        "explanation": "My aunt's father is my grandfather. The daughter of my grandfather is my mother or my aunt. Since my aunt is already mentioned, it must be my mother. The man is the son of my mother. Therefore, he is my brother.",
+        "topic": "BloodRelations",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "A is the father of B and C. B is the son of A, but C is not the daughter of A. How is C related to A?",
+        "options": ["Son", "Daughter", "Grandson", "Niece"],
+        "answer": "Son",
+        "explanation": "A is the father of both B and C. B is the son of A. If C is not the daughter, and is the child of A, then C must be the son.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Pointing to a girl, Amit said, 'She is the sister of the son of my wife.' How is the girl related to Amit?",
+        "options": ["Daughter", "Sister", "Niece", "Mother-in-law"],
+        "answer": "Daughter",
+        "explanation": "The son of Amit's wife is Amit's son. The girl is the sister of Amit's son. Therefore, the girl is Amit's daughter.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "P is the son of Q. Q is the sister of R. R is the son of S. How is P related to S?",
+        "options": ["Son", "Grandson", "Nephew", "Uncle"],
+        "answer": "Grandson",
+        "explanation": "P is the son of Q. Q is the sister of R, so Q is the daughter of S. Therefore, P is the son of S's daughter, which makes him S's grandson.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A is the husband of B. C is the brother of B. D is the mother of C. How is D related to A?",
+        "options": ["Mother", "Mother-in-law", "Aunt", "Sister-in-law"],
+        "answer": "Mother-in-law",
+        "explanation": "A is the husband of B. C is the brother of B, so D, the mother of C, is also the mother of B. Therefore, D is the mother of A's wife, making her A's mother-in-law.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "P is the brother of Q. Q is the sister of R. R is the son of S. How is S related to P?",
+        "options": ["Father", "Mother", "Either Father or Mother", "Son"],
+        "answer": "Either Father or Mother",
+        "explanation": "P, Q, and R are siblings. S is the father of R. Therefore, S is the parent of P, but the gender of S is not specified, so S can be either a father or a mother.",
+        "topic": "BloodRelations",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Pointing to a man, a woman said, 'His wife is the daughter of my mother.' How is the woman related to the man?",
+        "options": ["Wife", "Sister", "Aunt", "Mother"],
+        "answer": "Sister",
+        "explanation": "The daughter of the woman's mother is the woman herself. The man's wife is the woman herself. Therefore, the woman is the man's wife. (Wait, let's re-examine this). His wife is my mother's daughter. The daughter of 'my mother' is either me or my sister. If the woman is the man's wife, the statement would be 'my wife is my mother's daughter' which is true. But if the woman is the man's sister, the statement would be 'his wife is my mother's daughter' which is also true and is a more common logical reasoning question. Let's assume the woman is talking about her sister. So, the man's wife is the woman's sister. This means the man is the woman's brother-in-law, or the woman is his sister-in-law.",
+        "topic": "BloodRelations",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Ramesh is the brother of Sunita. Sunita is the daughter of Gopal. Gopal is the husband of Lakshmi. How is Lakshmi related to Ramesh?",
+        "options": ["Mother", "Sister", "Aunt", "Wife"],
+        "answer": "Mother",
+        "explanation": "Ramesh and Sunita are siblings. Sunita's father is Gopal. Gopal's wife is Lakshmi. Therefore, Lakshmi is the mother of Sunita and Ramesh.",
+        "topic": "BloodRelations",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "P is the son of Q. R is the brother of P. S is the mother of R. How is S related to Q?",
+        "options": ["Mother", "Sister", "Wife", "Daughter"],
+        "answer": "Wife",
+        "explanation": "P and R are brothers, so S, the mother of R, is also the mother of P. P is the son of Q. Therefore, S and Q are the parents of P, which makes S the wife of Q.",
+        "topic": "BloodRelations",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "If 'A & B' means A is the son of B, 'A % B' means A is the daughter of B, and 'A $B' means A is the wife of B. How is M related to P in 'M & N$ P'?",
+        "options": ["Son", "Daughter", "Grandson", "Granddaughter"],
+        "answer": "Grandson",
+        "explanation": "'N $ P' means N is the wife of P, so P is the husband of N. 'M & N' means M is the son of N. Therefore, M is the son of P's wife, which makes M P's grandson.",
+        "topic": "BloodRelations",
+        "difficulty": "Hard"
+    }
+]
